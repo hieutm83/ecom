@@ -1,0 +1,1 @@
+﻿import{J as r,bB as b}from"./chunk-19e1ba83.js";var t="[object Number]";function m(e){return typeof e=="number"||r(e)&&b(e)==t}export{m as i};

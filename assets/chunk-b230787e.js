@@ -1,0 +1,1 @@
+﻿import{r}from"./chunk-19e1ba83.js";const a=(n,c=!1)=>{const t=r.exports.useRef(null),[o,i]=r.exports.useState(c),u=e=>{const[s]=e;i(s.isIntersecting)};return r.exports.useEffect(()=>{const e=t.current,s=new IntersectionObserver(u,n);return e&&s.observe(e),()=>{e&&s.unobserve(e)}},[t,n]),{containerRef:t,isVisible:o}};export{a as u};
